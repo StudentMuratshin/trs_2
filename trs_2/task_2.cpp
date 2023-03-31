@@ -12,21 +12,20 @@ int main()
 {
 	ofstream u_1("C:\\Users\\PETA4\\Desktop\\3\\6_sem\\trs\\labs\\trs_2\\out\\u1_out.csv");
 
-	const int m = 3750;
-	const int n = 43;
+	const int m = 120;
+	const int n = 730;
 
 	vector < vector <double> > u(n, vector <double>(m));
 
 	double tau = 1. / (n - 1);
 	double h = 1. / (m - 1);
 
-	for (int i = 0; i < m - 1; i++)
+	for (int i = 0; i < m; i++)
 	{
 		u[0][i] = (i * i * h * h);
 	}
-	u[0][m - 1] = (h + u[0][m - 2]) / (1 + h);
 
-	for (int j = 1; j < n - 1; j++)
+	for (int j = 1; j < n; j++)
 	{
 		u[j][0] = 2 * pi * (1 - exp(-tau * j));
 		for (int i = 1; i < m - 1; i++)
