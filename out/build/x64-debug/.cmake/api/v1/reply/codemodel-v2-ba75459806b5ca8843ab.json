@@ -1,0 +1,121 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "trs_2",
+					"jsonFile" : "directory-trs_2-Debug-9bb2ed6d3374ea6e2c4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "trs_2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "trs_2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "murat::@485626f93ef9a4bffb33",
+					"jsonFile" : "target-murat-Debug-557c3ba5bcb8c7ebddbb.json",
+					"name" : "murat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "trs_1::@485626f93ef9a4bffb33",
+					"jsonFile" : "target-trs_1-Debug-b6265d7c9f23497408f8.json",
+					"name" : "trs_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "trs_2_1::@485626f93ef9a4bffb33",
+					"jsonFile" : "target-trs_2_1-Debug-b20dde12f450c6cc03c3.json",
+					"name" : "trs_2_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "trs_2_2::@485626f93ef9a4bffb33",
+					"jsonFile" : "target-trs_2_2-Debug-a3a6b67a3eb9320e33fb.json",
+					"name" : "trs_2_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "trs_3::@485626f93ef9a4bffb33",
+					"jsonFile" : "target-trs_3-Debug-49ef7f23fa6e54a92049.json",
+					"name" : "trs_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "trs_4::@485626f93ef9a4bffb33",
+					"jsonFile" : "target-trs_4-Debug-b56d6c037ac362654d1a.json",
+					"name" : "trs_4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/PETA4/Desktop/3/6_sem/trs/labs/trs_2/out/build/x64-debug",
+		"source" : "C:/Users/PETA4/Desktop/3/6_sem/trs/labs/trs_2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

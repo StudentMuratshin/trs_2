@@ -3,6 +3,7 @@
 #include <string>
 #include <cmath>
 #include <vector>
+#include <iomanip>
 
 constexpr auto pi = 3.14159265358979323846;
 
@@ -17,8 +18,8 @@ int main()
 {
 	ofstream u_1("C:\\Users\\PETA4\\Desktop\\3\\6_sem\\trs\\labs\\trs_2\\out\\u1_out.csv");
 
-	vector <int> m = { 10, 100, 1000, 10000 };
-	vector <int> n = { 540, 5400, 54000, 54000 };
+	vector <int> m = { 100 };
+	vector <int> n = { 5400 };
 
 	for (int k = 0; k < m.size(); k++)
 	{
@@ -47,7 +48,7 @@ int main()
 		{
 			for (int i = 0; i < m[k]; i++)
 			{
-				//u_1 << j * tau << " " << i * h << " " << u[j][i] << endl;
+				u_1 << j * tau << " " << i * h << " " << u[j][i] << endl;
 				diff = abs(u[j][i] - sol(j * tau, i * h));
 				if (diff > M) {
 					M = diff;
@@ -55,7 +56,7 @@ int main()
 				}
 			}
 		}
-		cout << "Step h(x): " << h << " Step T(t): " << tau << " Error: " << M << endl;
+		cout << "Step h(x): " <<  h << setw(13 + m.size() - k) << " Step T(t): " << tau << setw(10 + m.size()) << " Error: " << M << endl;
 	}
 
 

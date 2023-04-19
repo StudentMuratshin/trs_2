@@ -1,0 +1,112 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "trs_2",
+					"jsonFile" : "directory-trs_2-Release-9bb2ed6d3374ea6e2c4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "trs_2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "trs_2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "trs_1::@485626f93ef9a4bffb33",
+					"jsonFile" : "target-trs_1-Release-52d1e24413af14580c6f.json",
+					"name" : "trs_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "trs_2_1::@485626f93ef9a4bffb33",
+					"jsonFile" : "target-trs_2_1-Release-abe5a9c5c3e85ec24784.json",
+					"name" : "trs_2_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "trs_2_2::@485626f93ef9a4bffb33",
+					"jsonFile" : "target-trs_2_2-Release-ad738d77538e11ae4887.json",
+					"name" : "trs_2_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "trs_3::@485626f93ef9a4bffb33",
+					"jsonFile" : "target-trs_3-Release-28da326526256279b9c9.json",
+					"name" : "trs_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "trs_4::@485626f93ef9a4bffb33",
+					"jsonFile" : "target-trs_4-Release-d19008e130e2aa977679.json",
+					"name" : "trs_4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/PETA4/Desktop/3/6_sem/trs/labs/trs_2/out/build/x64-release",
+		"source" : "C:/Users/PETA4/Desktop/3/6_sem/trs/labs/trs_2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
